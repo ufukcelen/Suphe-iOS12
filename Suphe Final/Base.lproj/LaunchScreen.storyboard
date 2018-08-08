@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Zuh-4M-kF7">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="2sw-cc-7vB">
+            <objects>
+                <viewController id="Zuh-4M-kF7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4aS-fS-XHc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="w6Q-G2-Mdl">
+                                <rect key="frame" x="29" y="38" width="317" height="202"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="202" id="8Iu-Cy-3aT"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="idLightLogo.png" translatesAutoresizingMaskIntoConstraints="NO" id="9z0-k8-wzo">
+                                <rect key="frame" x="54" y="629" width="266" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="m6f-O0-TIz"/>
+                                </constraints>
+                            </imageView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="white" translatesAutoresizingMaskIntoConstraints="NO" id="apY-zm-5wj">
+                                <rect key="frame" x="177" y="407" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Yükleniyor..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zbh-9m-RRh">
+                                <rect key="frame" x="114" y="327" width="146" height="47"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-Regular" family="Avenir Next Condensed" pointSize="34"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="9z0-k8-wzo" firstAttribute="leading" secondItem="gR6-Sq-cQ9" secondAttribute="leading" constant="54" id="6GE-JQ-ZGQ"/>
+                            <constraint firstItem="zbh-9m-RRh" firstAttribute="centerX" secondItem="apY-zm-5wj" secondAttribute="centerX" id="8Fd-fR-Kmo"/>
+                            <constraint firstItem="zbh-9m-RRh" firstAttribute="centerX" secondItem="4aS-fS-XHc" secondAttribute="centerX" id="EWp-P9-AC8"/>
+                            <constraint firstItem="w6Q-G2-Mdl" firstAttribute="leading" secondItem="gR6-Sq-cQ9" secondAttribute="leading" constant="29" id="VH5-pT-4tz"/>
+                            <constraint firstItem="apY-zm-5wj" firstAttribute="leading" secondItem="gR6-Sq-cQ9" secondAttribute="leading" constant="177" id="bjk-38-mI0"/>
+                            <constraint firstItem="9z0-k8-wzo" firstAttribute="bottom" secondItem="gR6-Sq-cQ9" secondAttribute="bottom" id="evS-9D-TjW"/>
+                            <constraint firstItem="zbh-9m-RRh" firstAttribute="top" secondItem="w6Q-G2-Mdl" secondAttribute="bottom" constant="87" id="evd-TH-stH"/>
+                            <constraint firstItem="apY-zm-5wj" firstAttribute="centerX" secondItem="9z0-k8-wzo" secondAttribute="centerX" id="tgv-Fi-Cux"/>
+                            <constraint firstItem="w6Q-G2-Mdl" firstAttribute="top" secondItem="gR6-Sq-cQ9" secondAttribute="top" constant="18" id="u2D-zU-wVM"/>
+                            <constraint firstItem="apY-zm-5wj" firstAttribute="top" secondItem="zbh-9m-RRh" secondAttribute="bottom" constant="33" id="wRC-Bv-MYt"/>
+                            <constraint firstItem="w6Q-G2-Mdl" firstAttribute="centerX" secondItem="zbh-9m-RRh" secondAttribute="centerX" id="wsW-Os-C3Q"/>
+                            <constraint firstItem="zbh-9m-RRh" firstAttribute="leading" secondItem="gR6-Sq-cQ9" secondAttribute="leading" constant="114" id="z5v-eF-uv1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gR6-Sq-cQ9"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qLk-FR-mNn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="9" y="358"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Logo.png" width="1024" height="1024"/>
+        <image name="idLightLogo.png" width="771" height="186"/>
+    </resources>
+</document>
