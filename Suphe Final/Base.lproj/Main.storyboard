@@ -2169,14 +2169,14 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="223" id="arl-rz-Ebp"/>
                                 </constraints>
-                                <mutableString key="text">&lt;h2 style="color: #2e6c80;"&gt;Seviye 47:&lt;/h2&gt;
+                                <string key="text">&lt;h2 style="color: #2e6c80;"&gt;Seviye 47:&lt;/h2&gt;
 &lt;p&gt;Hiper Metin İşaretleme &lt;strong&gt;D&lt;/strong&gt;ili web sayfalarını oluşturmak için kullanılan standart m&lt;strong&gt;e&lt;/strong&gt;tin işaretleme dilidir. Dilin son sürü&lt;strong&gt;m&lt;/strong&gt;ü HTML5'tir. HTML, bir programlama dili olarak tanımlanamaz. Zira HTML k&lt;strong&gt;o&lt;/strong&gt;dlarıyla kendi başına çalışa&lt;strong&gt;n&lt;/strong&gt; bir program yazılamaz..&amp;nbsp;&lt;/p&gt;
 &lt;h2 style="color: #2e6c80;"&gt;//Şüphe//&lt;/h2&gt;
 &lt;ol style="list-style: none; font-size: 14px; line-height: 32px; font-weight: bold;"&gt;
 &lt;/ol&gt;
 &lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;</mutableString>
+&lt;p&gt;&lt;strong&gt;&amp;nbsp;&lt;/strong&gt;&lt;/p&gt;</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -6349,7 +6349,6 @@ Başlamadan önce bilmen gereken bir şey daha var;
         <image name="play.png" width="260" height="260"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="gPg-c1-mFF"/>
         <segue reference="63D-6Y-05d"/>
         <segue reference="2TB-y9-qB6"/>
         <segue reference="vav-Up-ZOz"/>
