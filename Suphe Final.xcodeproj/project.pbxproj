@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		264985AD2121C0DA00B9144D /* Pause.png in Resources */ = {isa = PBXBuildFile; fileRef = 264985AC2121C0A300B9144D /* Pause.png */; };
 		26626143211A2AB50037DF06 /* L41Bck.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2662611A211A2AAD0037DF06 /* L41Bck.jpg */; };
 		26626144211A2AB50037DF06 /* 70308067-minimalism-wallpapers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2662611B211A2AAE0037DF06 /* 70308067-minimalism-wallpapers.jpg */; };
 		26626145211A2AB50037DF06 /* L6Bck.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2662611C211A2AAE0037DF06 /* L6Bck.jpg */; };
@@ -203,6 +204,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		264985AC2121C0A300B9144D /* Pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pause.png; sourceTree = "<group>"; };
 		2662611A211A2AAD0037DF06 /* L41Bck.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = L41Bck.jpg; sourceTree = "<group>"; };
 		2662611B211A2AAE0037DF06 /* 70308067-minimalism-wallpapers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "70308067-minimalism-wallpapers.jpg"; sourceTree = "<group>"; };
 		2662611C211A2AAE0037DF06 /* L6Bck.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = L6Bck.jpg; sourceTree = "<group>"; };
@@ -559,6 +561,7 @@
 				26626178211A2AD00037DF06 /* hintLight.png */,
 				26626175211A2ACF0037DF06 /* idDark.png */,
 				26626177211A2ACF0037DF06 /* idLightLogo.png */,
+				264985AC2121C0A300B9144D /* Pause.png */,
 				2662616F211A2ACE0037DF06 /* Logo.png */,
 				2662616C211A2ACD0037DF06 /* LogoSaydamBlack.png */,
 				26626176211A2ACF0037DF06 /* lScreen.png */,
@@ -837,6 +840,7 @@
 				26626180211A2AD00037DF06 /* play.png in Resources */,
 				26909895211A2D3B00811C6B /* L36_2.png in Resources */,
 				2690989B211A2D3C00811C6B /* L34Img.png in Resources */,
+				264985AD2121C0DA00B9144D /* Pause.png in Resources */,
 				269A0286211B591F00B9A766 /* L2Img.png in Resources */,
 				26909872211A2D3B00811C6B /* L20Img.png in Resources */,
 				26909899211A2D3C00811C6B /* L16Img.png in Resources */,

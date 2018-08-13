@@ -8,16 +8,18 @@
 
 import UIKit
 import AudioToolbox
+import AVFoundation
 
 class L18VC: UIViewController {
 
     
-   
+   var audioPlayer: AVAudioPlayer!
     
     let userArray = ["doppler","Doppler","DOPPLER"]
     let passArray = ["etkisi","Etkisi","ETKİSİ","ETKISI"]
   
     
+    @IBOutlet weak var but2: UIButton!
     @IBOutlet weak var userTextField: UITextField!
     @IBOutlet weak var passTextField: UITextField!
     @IBOutlet weak var baslik: UILabel!
@@ -42,7 +44,7 @@ class L18VC: UIViewController {
         applyMotionEffect(toView: baslik, magnitude: 20)
         applyMotionEffect(toView: but1, magnitude: 30)
         applyMotionEffect(toView: idv, magnitude: 10)
-     
+     applyMotionEffect(toView: but2, magnitude: 20)
         applyMotionEffect(toView: but3, magnitude: 20)
         
       
@@ -59,18 +61,24 @@ class L18VC: UIViewController {
   
     @IBAction func calPressed(_ sender: Any) {
    
-        if let soundURL = Bundle.main.url(forResource: "L17", withExtension: "mp3"){
+        let soundURL = Bundle.main.url(forResource: "L17", withExtension: "mp3")
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOf: soundURL!)
+        } catch  {
             
-            var mySound: SystemSoundID = 0
-            AudioServicesCreateSystemSoundID(soundURL as CFURL, &mySound)
-            //Play
-            AudioServicesPlaySystemSound(mySound)
+            print(error)
         }
+        
+        
+        
+        
+        
+        audioPlayer.play()
         
 }
 
     @IBAction func stopButton(_ sender: UIButton) {
-       
+       audioPlayer.stop()
        
     }
     
